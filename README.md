@@ -1,1 +1,1 @@
-** Pluralsight course on Building a Javascript Development Environment **
+**Pluralsight course on Building a Javascript Development Environment**
