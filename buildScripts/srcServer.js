@@ -5,6 +5,8 @@ import webpack from "webpack";
 import WebpackDevMiddleWare from "webpack-dev-middleware";
 import config from "../webpack.config.dev.js";
 
+/* eslint-disable no-console */
+
 const __dirname = path.resolve();
 const port = 3000;
 const app = express();

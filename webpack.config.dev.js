@@ -1,9 +1,8 @@
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import path from "path";
-import { dirname } from "path";
 import { fileURLToPath } from "url";
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default {
   mode: "development",
